@@ -25,6 +25,9 @@ export default function Header() {
                                 <li className="nav-item">
                                     <Link to='/contact' activeClassName='selected'><a className="nav-link text-secondary">Contact</a></Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link to='/price' activeClassName='selected'><a className="nav-link text-secondary">Price</a></Link>
+                                </li>
                                 
                             </ul>
                         </div>
