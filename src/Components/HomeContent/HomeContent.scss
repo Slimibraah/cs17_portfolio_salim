@@ -1,0 +1,12 @@
+.fontSize{
+    font-size: clamp(50px, 4em, 5rem);
+}
+
+@media screen and (max-width: 800px) {
+    .myList{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        font-size: 50px;
+    }
+}

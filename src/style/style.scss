@@ -1,0 +1,27 @@
+@import './variables.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+.font1{
+    font-family: 'Original Surfer', cursive;
+}
+
+.font2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+    list-style: none!important;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.overflowX{
+    overflow-x: hidden;
+}
+.overflowY{
+    overflow-y: hidden;
+}
